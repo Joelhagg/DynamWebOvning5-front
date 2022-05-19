@@ -1,0 +1,22 @@
+body {
+        background-color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#diaryConatiner {
+
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#newEntrieContiner {
+    width: 300px;
+
+}
+
+#savedEntriesWraper {
+    width: 500px;
+}

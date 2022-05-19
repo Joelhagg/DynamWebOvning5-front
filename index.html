@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Min kära dagbok</title>
+</head>
+<body>
+    <div id="diaryConatiner">
+
+        <div id="newEntrieContiner">
+    
+            <h1>Välkommen till dagboken!</h1>
+            <h3>Inläggen sparas på en server så att du alltid kan komma åt dom! </h3>
+            <h3>Visa vilka inlägg som är <a href="http://localhost:3000/entries">sparade</a> som .json</h3>
+            <br>
+            <br>
+            <input id="dateInput" type="date"/>
+            <br>
+            <br>
+            <input id="titleInput" type="text" placeholder="Titel" />
+            <br>
+            <br>
+            <textarea id="textAreaInput" placeholder="skriv vad du vill..."></textarea>
+            <br>
+            <br>
+            <button id="saveButton" >Spara inlägg</button>
+    
+        </div>
+        <div id="savedEntriesWraper">
+            <h1>Sparade Dagboksinlägg</h1>
+            <hr>
+            <br>
+            <div id="savedEntriesContiner"></div>
+            <br>
+        
+        </div>
+    </div>
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
